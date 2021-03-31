@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.19">
+    <testcase classname="SearchBox Functionality check 2" name="Amazon searchBox functionality check with valid product 2" time="4.934">
+        <system-out>
+            <![CDATA[Given I am on CapitalOne page...............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

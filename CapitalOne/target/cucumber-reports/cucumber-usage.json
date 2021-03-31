@@ -1,0 +1,20 @@
+[
+  {
+    "source": "I am on CapitalOne page",
+    "steps": [
+      {
+        "name": "I am on CapitalOne page",
+        "aggregatedDurations": {
+          "median": 4.2224251,
+          "average": 4.2224251
+        },
+        "durations": [
+          {
+            "duration": 4.2224251,
+            "location": "file:///D:/IntelliJ%20IDEA%20Community%20Edition%202020.3.1/Team_BDD_bootcamp_2021/CapitalOne/src/test/java/features/Demo.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]

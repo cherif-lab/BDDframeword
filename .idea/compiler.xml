@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Hotels" />
+        <module name="CNN" />
+        <module name="gov.healthcare" />
+        <module name="Cigna" />
+        <module name="Delta" />
+        <module name="Generic" />
+        <module name="Amazon" />
+        <module name="CapitalOne" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TDBank" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

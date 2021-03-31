@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-29T18:47:04.724Z",
+        "line": 4,
+        "name": "Amazon searchBox functionality check with valid product 2",
+        "description": "",
+        "id": "searchbox-functionality-check-2;amazon-searchbox-functionality-check-with-valid-product-2",
+        "after": [
+          {
+            "result": {
+              "duration": 628422800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.DemoStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4222425100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 19998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DemoStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 4997100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am on CapitalOne page",
+            "match": {
+              "location": "stepDefinitions.DemoStepDefinition.i_am_on_capital_one_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DemoStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amar"
+          }
+        ]
+      }
+    ],
+    "name": "SearchBox Functionality check 2",
+    "description": "",
+    "id": "searchbox-functionality-check-2",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Demo.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,4 @@
+
+@amar
+Scenario: Amazon searchBox functionality check with valid product 2 # src/test/java/features/Demo.feature:4
+  Given I am on CapitalOne page                                     # stepDefinitions.DemoStepDefinition.i_am_on_capital_one_page()
