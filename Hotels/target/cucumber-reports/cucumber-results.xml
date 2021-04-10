@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="162.446">
+    <testcase classname="Home page features functionality check" name="check deals  functionality" time="22.606">
+        <system-out>
+            <![CDATA[Given I am on Hotels home page..............................................passed
+And i click on Deals feature................................................passed
+And i enter my destination "New York, New York, United States of America"...passed
+And i choose my checkIn "04/10/2021" date...................................passed
+And i choose my checkOut "04/13/2021" date..................................passed
+And i choose rooms "1"......................................................passed
+And i choose adults "2".....................................................passed
+And i choose  children "2"..................................................passed
+When i click on show deals button...........................................passed
+Then verify title "Hotels.com - hotels in New York, New York, United States of America".passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Home page features functionality check" name="check deals feature functionality" time="12.589">
+        <system-out>
+            <![CDATA[Given I am on Hotels home page..............................................passed
+When i click on Deals feature...............................................passed
+Then page with  "https://www.hotels.com/hotel-deals/?intlid=HOME+%3A%3A+header_main_section" should displayed.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Home page features functionality check" name="check Things To Do functionality" time="15.124">
+        <failure message="expected:&lt;https://[travel.hotels.com/Activities?intlid=HOME+%3A%3A+header_main_section]&gt; but was:&lt;https://[www.hotels.com/]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am on Hotels home page..............................................passed
+When I click on Things To Do feature........................................passed
+Then verify url  "https://travel.hotels.com/Activities?intlid=HOME+%3A%3A+header_main_section".failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<https://[travel.hotels.com/Activities?intlid=HOME+%3A%3A+header_main_section]> but was:<https://[www.hotels.com/]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinitions.HomePageStepDefinition.verify_url(HomePageStepDefinition.java:57)
+	at ✽.verify url  "https://travel.hotels.com/Activities?intlid=HOME+%3A%3A+header_main_section"(file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:31)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Home page features functionality check" name="check signIn feature functionality" time="28.028">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),'Sign in')]&quot;}&#10;  (Session info: chrome=89.0.4389.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MacBook-Pro-3.local', ip: '192.168.0.2', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/dn/0v7_tw5n0zs...}, goog:chromeOptions: {debuggerAddress: localhost:54801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 091014d577ce3c79285bd55b7d917a07&#10;*** Element info: {Using=xpath, value=//span[contains(text(),'Sign in')]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am on Hotels home page..............................................passed
+When I click on signIn button...............................................failed
+Then I verify text "Hotels.com - Deals & Discounts for Hotel Reservations from Luxury Hotels to Budget Accommodations" is displayed.skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Sign in')]"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-3.local', ip: '192.168.0.2', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/dn/0v7_tw5n0zs...}, goog:chromeOptions: {debuggerAddress: localhost:54801}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 091014d577ce3c79285bd55b7d917a07
+*** Element info: {Using=xpath, value=//span[contains(text(),'Sign in')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at homepage.HomePage.clickOnSignIn(HomePage.java:55)
+	at stepDefinitions.HomePageStepDefinition.i_click_on_sign_in_button(HomePageStepDefinition.java:63)
+	at ✽.I click on signIn button(file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:38)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Home page features functionality check" name="check signIn functionality" time="28.15">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),'Sign in')]&quot;}&#10;  (Session info: chrome=89.0.4389.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MacBook-Pro-3.local', ip: '192.168.0.2', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/dn/0v7_tw5n0zs...}, goog:chromeOptions: {debuggerAddress: localhost:54876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7ebf82a54a1b02cc02ac9f46a196c3f0&#10;*** Element info: {Using=xpath, value=//span[contains(text(),'Sign in')]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am on Hotels home page..............................................passed
+And I click on signIn button................................................failed
+And I enter my email address................................................skipped
+And I enter my password.....................................................skipped
+When I click on signIn2 button..............................................skipped
+Then I should see "ameur" mesage at the top right of the window.............skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Sign in')]"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-3.local', ip: '192.168.0.2', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/dn/0v7_tw5n0zs...}, goog:chromeOptions: {debuggerAddress: localhost:54876}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ebf82a54a1b02cc02ac9f46a196c3f0
+*** Element info: {Using=xpath, value=//span[contains(text(),'Sign in')]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at homepage.HomePage.clickOnSignIn(HomePage.java:55)
+	at stepDefinitions.HomePageStepDefinition.i_click_on_sign_in_button(HomePageStepDefinition.java:63)
+	at ✽.I click on signIn button(file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:43)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Home page features functionality check" name="check help feature functionality" time="10.43">
+        <system-out>
+            <![CDATA[Given I am on Hotels home page..............................................passed
+And I click on help feature.................................................passed
+And I click on change my booking............................................passed
+And I enter my email address................................................passed
+And I enter my password.....................................................passed
+When I click on signIn2 button..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Home page features functionality check" name="check FaQs feature functionality" time="9.535">
+        <system-out>
+            <![CDATA[Given I am on Hotels home page..............................................passed
+And I click on help feature.................................................passed
+When I click on FAQs........................................................passed
+Then verify title "Customer Service Portal".................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Home page features functionality check" name="check USD feature functionality" time="7.928">
+        <system-out>
+            <![CDATA[Given I am on Hotels home page..............................................passed
+And i click on USD feature..................................................passed
+When i click on US Dollar feature...........................................passed
+Then verify TiTle "Hotels.com - Deals & Discounts for Hotel Reservations from Luxury Hotels to Budget Accommodations" of page displayed.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Home page features functionality check" name="check navigation of help feature functionality" time="26.413">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//header/nav[1]/div[1]/ul[1]/li[3]/span[1]/span[1]/span[1]&quot;}&#10;  (Session info: chrome=89.0.4389.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MacBook-Pro-3.local', ip: '192.168.0.2', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/dn/0v7_tw5n0zs...}, goog:chromeOptions: {debuggerAddress: localhost:55120}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 076e2ab4098f24c0ba9f5e78ded4f1d4&#10;*** Element info: {Using=xpath, value=//header/nav[1]/div[1]/ul[1]/li[3]/span[1]/span[1]/span[1]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am on Hotels home page..............................................passed
+And I click on help feature.................................................failed
+When I click on change my booking...........................................skipped
+Then I get url..............................................................skipped
+And i navigate back to help page............................................skipped
+And I verify titLe "Hotels.com - Deals & Discounts for Hotel Reservations from Luxury Hotels to Budget Accommodations".skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//header/nav[1]/div[1]/ul[1]/li[3]/span[1]/span[1]/span[1]"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-3.local', ip: '192.168.0.2', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/dn/0v7_tw5n0zs...}, goog:chromeOptions: {debuggerAddress: localhost:55120}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 076e2ab4098f24c0ba9f5e78ded4f1d4
+*** Element info: {Using=xpath, value=//header/nav[1]/div[1]/ul[1]/li[3]/span[1]/span[1]/span[1]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at homepage.HomePage.clickOnHelpFeature(HomePage.java:81)
+	at stepDefinitions.HomePageStepDefinition.i_click_on_help_feature(HomePageStepDefinition.java:89)
+	at ✽.I click on help feature(file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:77)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

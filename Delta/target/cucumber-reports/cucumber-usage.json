@@ -1,0 +1,250 @@
+[
+  {
+    "source": "I am on delta Home Page",
+    "steps": [
+      {
+        "name": "I am on delta Home Page",
+        "aggregatedDurations": {
+          "median": 12.622943,
+          "average": 12.5835292
+        },
+        "durations": [
+          {
+            "duration": 12.622943,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:4"
+          },
+          {
+            "duration": 14.03522,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:10"
+          },
+          {
+            "duration": 12.65095,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:16"
+          },
+          {
+            "duration": 12.070332,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:22"
+          },
+          {
+            "duration": 11.538201,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I mouse hover on sky miles",
+    "steps": [
+      {
+        "name": "I mouse hover on sky miles",
+        "aggregatedDurations": {
+          "median": 0.643787,
+          "average": 0.6283254
+        },
+        "durations": [
+          {
+            "duration": 0.500448,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:5"
+          },
+          {
+            "duration": 0.678676,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:11"
+          },
+          {
+            "duration": 1.077163,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:17"
+          },
+          {
+            "duration": 0.643787,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:23"
+          },
+          {
+            "duration": 0.241553,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on join Sky Miles For Free feature",
+    "steps": [
+      {
+        "name": "I click on join Sky Miles For Free feature",
+        "aggregatedDurations": {
+          "median": 8.900367,
+          "average": 8.900367
+        },
+        "durations": [
+          {
+            "duration": 8.900367,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see JOIN SKYMILES text",
+    "steps": [
+      {
+        "name": "I should see JOIN SKYMILES text",
+        "aggregatedDurations": {
+          "median": 0.160482,
+          "average": 0.160482
+        },
+        "durations": [
+          {
+            "duration": 0.160482,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on my Sky Miles  feature",
+    "steps": [
+      {
+        "name": "I click on my Sky Miles  feature",
+        "aggregatedDurations": {
+          "median": 8.641534,
+          "average": 8.641534
+        },
+        "durations": [
+          {
+            "duration": 8.641534,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see Log In To Delta text1",
+    "steps": [
+      {
+        "name": "I should see Log In To Delta text1",
+        "aggregatedDurations": {
+          "median": 0.777482,
+          "average": 0.777482
+        },
+        "durations": [
+          {
+            "duration": 0.777482,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on get To Know Sky Miles feature",
+    "steps": [
+      {
+        "name": "I click on get To Know Sky Miles feature",
+        "aggregatedDurations": {
+          "median": 7.617345,
+          "average": 7.617345
+        },
+        "durations": [
+          {
+            "duration": 7.617345,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see SkyMiles Program text2",
+    "steps": [
+      {
+        "name": "I should see SkyMiles Program text2",
+        "aggregatedDurations": {
+          "median": 0.294649,
+          "average": 0.294649
+        },
+        "durations": [
+          {
+            "duration": 0.294649,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on  how To Use Miles feature",
+    "steps": [
+      {
+        "name": "I click on  how To Use Miles feature",
+        "aggregatedDurations": {
+          "median": 8.055961,
+          "average": 8.055961
+        },
+        "durations": [
+          {
+            "duration": 8.055961,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see How to Earn Miles text3",
+    "steps": [
+      {
+        "name": "I should see How to Earn Miles text3",
+        "aggregatedDurations": {
+          "median": 0.297814,
+          "average": 0.297814
+        },
+        "durations": [
+          {
+            "duration": 0.297814,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click how To Earn Miles feature",
+    "steps": [
+      {
+        "name": "I click how To Earn Miles feature",
+        "aggregatedDurations": {
+          "median": 7.47026,
+          "average": 7.47026
+        },
+        "durations": [
+          {
+            "duration": 7.47026,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see JOIN SKY MILES text4",
+    "steps": [
+      {
+        "name": "I should see JOIN SKY MILES text4",
+        "aggregatedDurations": {
+          "median": 0.111949,
+          "average": 0.111949
+        },
+        "durations": [
+          {
+            "duration": 0.111949,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/SkyMiles.feature:31"
+          }
+        ]
+      }
+    ]
+  }
+]

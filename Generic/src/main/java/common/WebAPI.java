@@ -125,7 +125,7 @@ public class WebAPI {
     public static String sauceLabs_accessKey = "";
 
     public void openBrowser(String url) throws IOException {
-        setUp(false,"browserStack","windows","10","chrome","89",url);
+        setUp(false,"browserStack","OS X","sierra","chrome","89",url);
     }
 
 
@@ -152,7 +152,7 @@ public class WebAPI {
     public WebDriver getLocalDriver(String OS, String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "/Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Generic/BrowserDriver/mac/chromedriver");
             } else if (OS.equalsIgnoreCase("windows")) {
                 System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver.exe");
             }

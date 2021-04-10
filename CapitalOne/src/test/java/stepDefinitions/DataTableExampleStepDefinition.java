@@ -1,24 +1,16 @@
 package stepDefinitions;
 
 import common.WebAPI;
-import homepage.HomePage;
-import io.cucumber.datatable.DataTable;
+import homepage.HomePage1;
 import io.cucumber.java.BeforeStep;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
 import org.openqa.selenium.support.PageFactory;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 public class DataTableExampleStepDefinition extends WebAPI {
-    static HomePage homePage;
+    static HomePage1 homePage;
 
     @BeforeStep
     public static void getInit() {
-        homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage = PageFactory.initElements(driver, HomePage1.class);
     }
 
 }

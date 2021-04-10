@@ -1,0 +1,24 @@
+
+Scenario: check login functionality with invalid userId and password                                          [90m# src/test/java/features/HomePage.feature:10[0m
+  [32mGiven [0m[32mI am on progressive home page[0m                                                                         [90m# stepDefinitions.HomePageStepDefinition.i_am_on_progressive_home_page()[0m
+  [32mAnd [0m[32mI click on logIn button function[0m                                                                        [90m# stepDefinitions.HomePageStepDefinition.i_click_on_log_in_button_function()[0m
+  [32mAnd [0m[32mI enter my userId in field Zip Code[0m                                                                     [90m# stepDefinitions.HomePageStepDefinition.i_enter_my_user_id_in_field_zip_code()[0m
+  [32mAnd [0m[32mi enter my password[0m                                                                                     [90m# stepDefinitions.HomePageStepDefinition.i_enter_my_password()[0m
+  [32mAnd [0m[32mi check  save userid box[0m                                                                                [90m# stepDefinitions.HomePageStepDefinition.i_check_save_userid_box()[0m
+  [32mWhen [0m[32mi click on log in button2[0m                                                                              [90m# stepDefinitions.HomePageStepDefinition.i_click_on_log_in_button2()[0m
+  [31mThen [0m[31mi should see [0m[31m[1m"The login information you entered does not match our records. Please try again."[0m[31m massage[0m [90m# stepDefinitions.HomePageStepDefinition.i_should_see_massage(java.lang.String)[0m
+      [31morg.junit.ComparisonFailure: The login information you entered does not match our records. Please try again. expected:<[The login information you entered does not match our records. Please try again.]> but was:<[massage doest not match]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at homepage.HomePage.getErrorMessage1(HomePage.java:82)
+	at stepDefinitions.HomePageStepDefinition.i_should_see_massage(HomePageStepDefinition.java:85)
+	at ✽.i should see "The login information you entered does not match our records. Please try again." massage(file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage.feature:16)
+[0m
+
+    Embedding demo1 [image/png 680862 bytes]
+
+
+    Embedding demo1 [image/png 680862 bytes]
+
+
+    Embedding demo1 [image/png 680862 bytes]
+

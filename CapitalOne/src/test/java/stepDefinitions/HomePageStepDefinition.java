@@ -1,20 +1,17 @@
 package stepDefinitions;
 
 import common.WebAPI;
-import homepage.HomePage;
+import homepage.HomePage1;
 import io.cucumber.java.After;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
-import io.cucumber.java.en.*;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
 
-import java.io.IOException;
-
 public class HomePageStepDefinition  extends WebAPI {
-    static HomePage homePage;
+    static HomePage1 homePage;
 
     // Cucumber Hook
     @AfterStep
@@ -28,7 +25,7 @@ public class HomePageStepDefinition  extends WebAPI {
 
     @BeforeStep
     public static void getInit(){
-        homePage= PageFactory.initElements(driver,HomePage.class);
+        homePage= PageFactory.initElements(driver, HomePage1.class);
     }
 
     @After

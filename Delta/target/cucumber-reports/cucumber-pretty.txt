@@ -1,0 +1,30 @@
+
+Scenario: check functionality of join Sky Miles For Free # src/test/java/features/SkyMiles.feature:3
+  Given I am on delta Home Page                          # stepDefinitions.HomePageStepDefinition.i_am_on_delta_home_page()
+  And I mouse hover on sky miles                         # stepDefinitions.HomePageStepDefinition.i_mouse_hover_on_sky_miles()
+  When I click on join Sky Miles For Free feature        # stepDefinitions.HomePageStepDefinition.i_click_on_join_sky_miles_for_free_feature()
+  Then I should see JOIN SKYMILES text                   # stepDefinitions.HomePageStepDefinition.i_should_see_join_skymiles_text()
+
+Scenario: check functionality of my Sky Miles # src/test/java/features/SkyMiles.feature:9
+  Given I am on delta Home Page               # stepDefinitions.HomePageStepDefinition.i_am_on_delta_home_page()
+  And I mouse hover on sky miles              # stepDefinitions.HomePageStepDefinition.i_mouse_hover_on_sky_miles()
+  When I click on my Sky Miles  feature       # stepDefinitions.HomePageStepDefinition.i_click_on_my_sky_miles_feature()
+  Then I should see Log In To Delta text1     # stepDefinitions.HomePageStepDefinition.i_should_see_log_in_to_delta_text1()
+
+Scenario: check functionality of get To Know Sky Miles # src/test/java/features/SkyMiles.feature:15
+  Given I am on delta Home Page                        # stepDefinitions.HomePageStepDefinition.i_am_on_delta_home_page()
+  And I mouse hover on sky miles                       # stepDefinitions.HomePageStepDefinition.i_mouse_hover_on_sky_miles()
+  When I click on get To Know Sky Miles feature        # stepDefinitions.HomePageStepDefinition.i_click_on_get_to_know_sky_miles_feature()
+  Then I should see SkyMiles Program text2             # stepDefinitions.HomePageStepDefinition.i_should_see_sky_miles_program_text2()
+
+Scenario: check functionality of how To Use Miles # src/test/java/features/SkyMiles.feature:21
+  Given I am on delta Home Page                   # stepDefinitions.HomePageStepDefinition.i_am_on_delta_home_page()
+  And I mouse hover on sky miles                  # stepDefinitions.HomePageStepDefinition.i_mouse_hover_on_sky_miles()
+  When I click on  how To Use Miles feature       # stepDefinitions.HomePageStepDefinition.i_click_on_how_to_use_miles_feature()
+  Then I should see How to Earn Miles text3       # stepDefinitions.HomePageStepDefinition.i_should_see_how_to_earn_miles_text3()
+
+Scenario: check functionality of howTo Earn Miles # src/test/java/features/SkyMiles.feature:27
+  Given I am on delta Home Page                   # stepDefinitions.HomePageStepDefinition.i_am_on_delta_home_page()
+  And I mouse hover on sky miles                  # stepDefinitions.HomePageStepDefinition.i_mouse_hover_on_sky_miles()
+  When I click how To Earn Miles feature          # stepDefinitions.HomePageStepDefinition.i_click_how_to_earn_miles_feature()
+  Then I should see JOIN SKY MILES text4          # stepDefinitions.HomePageStepDefinition.i_should_see_join_sky_miles_text4()

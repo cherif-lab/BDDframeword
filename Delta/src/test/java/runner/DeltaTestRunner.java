@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         // For single feature file
         // features = {"src/test/java/features/HomePage.feature"}
-        features = {"src/test/java/features"},
+        features = {"src/test/java/Travelinfo.feature"},
         // the path of the step definition files
         //  glue = "src/test/java/stepDefinitions",
         glue = "stepDefinitions",
@@ -22,17 +22,14 @@ import org.junit.runner.RunWith;
         // display the console output in a proper readable format
         monochrome = true,
         // to check the mapping is proper between feature file and step definition file
-        dryRun = false,
-        publish = true,
-        tags = "(@DzTester) and (not @pending)"
+        dryRun =false,
+        publish = true
+        //tags = "(@Test)"
 //         tags = "(@smokeTest or @RegressionTest or @IntegrationTest ) and (not @pending)"
 
 
 
 )
 
-
 public class DeltaTestRunner {
-
-
 }

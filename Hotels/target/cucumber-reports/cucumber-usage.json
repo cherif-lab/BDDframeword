@@ -1,0 +1,433 @@
+[
+  {
+    "source": "I am on Hotels home page",
+    "steps": [
+      {
+        "name": "I am on Hotels home page",
+        "aggregatedDurations": {
+          "median": 6.720879,
+          "average": 6.871702888
+        },
+        "durations": [
+          {
+            "duration": 7.478047,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:4"
+          },
+          {
+            "duration": 8.483748,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:21"
+          },
+          {
+            "duration": 8.584167,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:29"
+          },
+          {
+            "duration": 6.768406,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:37"
+          },
+          {
+            "duration": 6.694033,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:42"
+          },
+          {
+            "duration": 5.770241,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:51"
+          },
+          {
+            "duration": 6.720879,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:59"
+          },
+          {
+            "duration": 6.039302,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:69"
+          },
+          {
+            "duration": 5.306503,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:76"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i click on Deals feature",
+    "steps": [
+      {
+        "name": "i click on Deals feature",
+        "aggregatedDurations": {
+          "median": 1.8655415,
+          "average": 1.8655415
+        },
+        "durations": [
+          {
+            "duration": 2.031086,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:5"
+          },
+          {
+            "duration": 1.699997,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i enter my destination {string}",
+    "steps": [
+      {
+        "name": "i enter my destination \"New York, New York, United States of America\"",
+        "aggregatedDurations": {
+          "median": 4.326629,
+          "average": 4.326629
+        },
+        "durations": [
+          {
+            "duration": 4.326629,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i choose my checkIn {string} date",
+    "steps": [
+      {
+        "name": "i choose my checkIn \"04/10/2021\" date",
+        "aggregatedDurations": {
+          "median": 0.428615,
+          "average": 0.428615
+        },
+        "durations": [
+          {
+            "duration": 0.428615,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i choose my checkOut {string} date",
+    "steps": [
+      {
+        "name": "i choose my checkOut \"04/13/2021\" date",
+        "aggregatedDurations": {
+          "median": 1.08556,
+          "average": 1.08556
+        },
+        "durations": [
+          {
+            "duration": 1.08556,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i choose rooms {string}",
+    "steps": [
+      {
+        "name": "i choose rooms \"1\"",
+        "aggregatedDurations": {
+          "median": 0.215602,
+          "average": 0.215602
+        },
+        "durations": [
+          {
+            "duration": 0.215602,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i choose adults {string}",
+    "steps": [
+      {
+        "name": "i choose adults \"2\"",
+        "aggregatedDurations": {
+          "median": 0.156718,
+          "average": 0.156718
+        },
+        "durations": [
+          {
+            "duration": 0.156718,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i choose  children {string}",
+    "steps": [
+      {
+        "name": "i choose  children \"2\"",
+        "aggregatedDurations": {
+          "median": 0.20552,
+          "average": 0.20552
+        },
+        "durations": [
+          {
+            "duration": 0.20552,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i click on show deals button",
+    "steps": [
+      {
+        "name": "i click on show deals button",
+        "aggregatedDurations": {
+          "median": 6.08359,
+          "average": 6.08359
+        },
+        "durations": [
+          {
+            "duration": 6.08359,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "verify title {string}",
+    "steps": [
+      {
+        "name": "verify title \"Hotels.com - hotels in New York, New York, United States of America\"",
+        "aggregatedDurations": {
+          "median": 0.06429,
+          "average": 0.06429
+        },
+        "durations": [
+          {
+            "duration": 0.06429,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:13"
+          }
+        ]
+      },
+      {
+        "name": "verify title \"Customer Service Portal\"",
+        "aggregatedDurations": {
+          "median": 0.015035,
+          "average": 0.015035
+        },
+        "durations": [
+          {
+            "duration": 0.015035,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:62"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "page with  {string} should displayed",
+    "steps": [
+      {
+        "name": "page with  \"https://www.hotels.com/hotel-deals/?intlid\u003dHOME+%3A%3A+header_main_section\" should displayed",
+        "aggregatedDurations": {
+          "median": 2.110544,
+          "average": 2.110544
+        },
+        "durations": [
+          {
+            "duration": 2.110544,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Things To Do feature",
+    "steps": [
+      {
+        "name": "I click on Things To Do feature",
+        "aggregatedDurations": {
+          "median": 3.923934,
+          "average": 3.923934
+        },
+        "durations": [
+          {
+            "duration": 3.923934,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on help feature",
+    "steps": [
+      {
+        "name": "I click on help feature",
+        "aggregatedDurations": {
+          "median": 0.226491,
+          "average": 0.226491
+        },
+        "durations": [
+          {
+            "duration": 0.316983,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:52"
+          },
+          {
+            "duration": 0.135999,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:60"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on change my booking",
+    "steps": [
+      {
+        "name": "I click on change my booking",
+        "aggregatedDurations": {
+          "median": 2.333422,
+          "average": 2.333422
+        },
+        "durations": [
+          {
+            "duration": 2.333422,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:53"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter my email address",
+    "steps": [
+      {
+        "name": "I enter my email address",
+        "aggregatedDurations": {
+          "median": 1.146563,
+          "average": 1.146563
+        },
+        "durations": [
+          {
+            "duration": 1.146563,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:54"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter my password",
+    "steps": [
+      {
+        "name": "I enter my password",
+        "aggregatedDurations": {
+          "median": 0.351595,
+          "average": 0.351595
+        },
+        "durations": [
+          {
+            "duration": 0.351595,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:55"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on signIn2 button",
+    "steps": [
+      {
+        "name": "I click on signIn2 button",
+        "aggregatedDurations": {
+          "median": 0.186385,
+          "average": 0.186385
+        },
+        "durations": [
+          {
+            "duration": 0.186385,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:56"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on FAQs",
+    "steps": [
+      {
+        "name": "I click on FAQs",
+        "aggregatedDurations": {
+          "median": 2.44397,
+          "average": 2.44397
+        },
+        "durations": [
+          {
+            "duration": 2.44397,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:61"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i click on USD feature",
+    "steps": [
+      {
+        "name": "i click on USD feature",
+        "aggregatedDurations": {
+          "median": 0.40038,
+          "average": 0.40038
+        },
+        "durations": [
+          {
+            "duration": 0.40038,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i click on US Dollar feature",
+    "steps": [
+      {
+        "name": "i click on US Dollar feature",
+        "aggregatedDurations": {
+          "median": 1.082623,
+          "average": 1.082623
+        },
+        "durations": [
+          {
+            "duration": 1.082623,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:71"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "verify TiTle {string} of page displayed",
+    "steps": [
+      {
+        "name": "verify TiTle \"Hotels.com - Deals \u0026 Discounts for Hotel Reservations from Luxury Hotels to Budget Accommodations\" of page displayed",
+        "aggregatedDurations": {
+          "median": 0.184394,
+          "average": 0.184394
+        },
+        "durations": [
+          {
+            "duration": 0.184394,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/HomePage.feature:72"
+          }
+        ]
+      }
+    ]
+  }
+]

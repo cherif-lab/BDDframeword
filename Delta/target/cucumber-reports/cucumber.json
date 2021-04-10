@@ -1,0 +1,1388 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-10T00:16:23.236Z",
+        "line": 3,
+        "name": "check functionality of join Sky Miles For Free",
+        "description": "",
+        "id": "sky-miles-functionality-check;check-functionality-of-join-sky-miles-for-free",
+        "after": [
+          {
+            "result": {
+              "duration": 407250000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 393000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12622943000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 64835000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 11174000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 4281000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on delta Home Page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_am_on_delta_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 5604000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 869000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 500448000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2797000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 4389000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1200000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I mouse hover on sky miles",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_mouse_hover_on_sky_miles()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1564000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1689000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8900367000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1659000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 3213000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 7237000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on join Sky Miles For Free feature",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_click_on_join_sky_miles_for_free_feature()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 475000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 333000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160482000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1136000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 2450000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1991000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I should see JOIN SKYMILES text",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_should_see_join_skymiles_text()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 519000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 515000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-10T00:16:46.360Z",
+        "line": 9,
+        "name": "check functionality of my Sky Miles",
+        "description": "",
+        "id": "sky-miles-functionality-check;check-functionality-of-my-sky-miles",
+        "after": [
+          {
+            "result": {
+              "duration": 295307000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 280000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14035220000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 4799000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 3880000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1005000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I am on delta Home Page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_am_on_delta_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 540000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 557000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 678676000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1018000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 3127000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 3136000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "I mouse hover on sky miles",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_mouse_hover_on_sky_miles()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 366000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 870000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8641534000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1526000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1671000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1018000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "I click on my Sky Miles  feature",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_click_on_my_sky_miles_feature()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 410000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 355000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 777482000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1067000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 2444000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 822000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I should see Log In To Delta text1",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_should_see_log_in_to_delta_text1()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 316000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1277000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-10T00:17:10.940Z",
+        "line": 15,
+        "name": "check functionality of get To Know Sky Miles",
+        "description": "",
+        "id": "sky-miles-functionality-check;check-functionality-of-get-to-know-sky-miles",
+        "after": [
+          {
+            "result": {
+              "duration": 558710000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 328000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12650950000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1863000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 5233000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 2157000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I am on delta Home Page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_am_on_delta_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 583000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 276000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1077163000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1403000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1601000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 661000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I mouse hover on sky miles",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_mouse_hover_on_sky_miles()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 336000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 207000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7617345000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 521000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1128000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 853000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I click on get To Know Sky Miles feature",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_click_on_get_to_know_sky_miles_feature()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 280000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1038000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 294649000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 912000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1246000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 606000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I should see SkyMiles Program text2",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_should_see_sky_miles_program_text2()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 391000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 299000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-10T00:17:33.235Z",
+        "line": 21,
+        "name": "check functionality of how To Use Miles",
+        "description": "",
+        "id": "sky-miles-functionality-check;check-functionality-of-how-to-use-miles",
+        "after": [
+          {
+            "result": {
+              "duration": 275499000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 195000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12070332000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 16013000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1534000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 824000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "I am on delta Home Page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_am_on_delta_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 352000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 337000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 643787000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1984000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1542000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1575000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I mouse hover on sky miles",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_mouse_hover_on_sky_miles()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 220000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 198000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8055961000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 533000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1121000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 593000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I click on  how To Use Miles feature",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_click_on_how_to_use_miles_feature()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 253000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 175000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 297814000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1131000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1645000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 809000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I should see How to Earn Miles text3",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_should_see_how_to_earn_miles_text3()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1723000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1413000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-10T00:17:54.683Z",
+        "line": 27,
+        "name": "check functionality of howTo Earn Miles",
+        "description": "",
+        "id": "sky-miles-functionality-check;check-functionality-of-howto-earn-miles",
+        "after": [
+          {
+            "result": {
+              "duration": 211537000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.NeedHelpStepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 221000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11538201000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 793000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1485000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 608000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "I am on delta Home Page",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_am_on_delta_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 370000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 174000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 241553000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 526000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 952000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 332000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "I mouse hover on sky miles",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_mouse_hover_on_sky_miles()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 255000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 167000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7470260000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1395000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 806000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 281000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "I click how To Earn Miles feature",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_click_how_to_earn_miles_feature()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 405000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 189000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 111949000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 622000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1043000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 635000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "I should see JOIN SKY MILES text4",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_should_see_join_sky_miles_text4()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 147000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.NeedHelpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 191000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "sky miles functionality check",
+    "description": "",
+    "id": "sky-miles-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/SkyMiles.feature",
+    "tags": []
+  }
+]

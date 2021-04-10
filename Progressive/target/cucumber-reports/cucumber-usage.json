@@ -1,0 +1,110 @@
+[
+  {
+    "source": "I am on progressive home page",
+    "steps": [
+      {
+        "name": "I am on progressive home page",
+        "aggregatedDurations": {
+          "median": 6.570448,
+          "average": 6.570448
+        },
+        "durations": [
+          {
+            "duration": 6.570448,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on logIn button function",
+    "steps": [
+      {
+        "name": "I click on logIn button function",
+        "aggregatedDurations": {
+          "median": 0.351412,
+          "average": 0.351412
+        },
+        "durations": [
+          {
+            "duration": 0.351412,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter my userId in field Zip Code",
+    "steps": [
+      {
+        "name": "I enter my userId in field Zip Code",
+        "aggregatedDurations": {
+          "median": 7.917053,
+          "average": 7.917053
+        },
+        "durations": [
+          {
+            "duration": 7.917053,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i enter my password",
+    "steps": [
+      {
+        "name": "i enter my password",
+        "aggregatedDurations": {
+          "median": 0.277593,
+          "average": 0.277593
+        },
+        "durations": [
+          {
+            "duration": 0.277593,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i check  save userid box",
+    "steps": [
+      {
+        "name": "i check  save userid box",
+        "aggregatedDurations": {
+          "median": 0.148951,
+          "average": 0.148951
+        },
+        "durations": [
+          {
+            "duration": 0.148951,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i click on log in button2",
+    "steps": [
+      {
+        "name": "i click on log in button2",
+        "aggregatedDurations": {
+          "median": 0.228508,
+          "average": 0.228508
+        },
+        "durations": [
+          {
+            "duration": 0.228508,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage.feature:15"
+          }
+        ]
+      }
+    ]
+  }
+]

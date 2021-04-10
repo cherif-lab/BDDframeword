@@ -2,9 +2,16 @@ package homepage;
 
 import common.WebAPI;
 import org.junit.Assert;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+
+import java.awt.Robot;
+
+import java.awt.event.KeyEvent;
+import java.awt.AWTException;
 
 import static homepage.HomePageWebElement.*;
 
@@ -13,77 +20,178 @@ public class HomePage extends WebAPI {
 // Action Method class
 
     // Find By Annotation: First Approach
-    @FindBy(how = How.ID, using =searchBoxLocator ) public WebElement searchBox;
-    @FindBy (how = How.ID, using =searchButtonLocator ) public WebElement searchButton;
-    @FindBy (how = How.XPATH, using =searchTextLocator ) public WebElement searchText;
-    @FindBy (how = How.XPATH, using =helloSignInLocator ) public WebElement helloSignIn;
-    @FindBy (how = How.XPATH, using =emailPhoneForSignInLocator ) public WebElement emailPhoneForSignIn;
-    @FindBy (how = How.XPATH, using =passwordForSignInLocator ) public WebElement passwordForSignIn;
-    @FindBy (how = How.XPATH, using =continueForSignInLocator ) public WebElement continueForSignIn;
-    @FindBy (how = How.XPATH, using =signInSubmitLocator ) public WebElement signInSubmit;
-    @FindBy (how = How.XPATH, using =helloUserLocator ) public WebElement helloUser;
-    @FindBy (how = How.XPATH, using =errorMessageLocator ) public WebElement errorMessage;
-    @FindBy (how = How.XPATH, using =customerNameLocator ) public WebElement customerName;
-    @FindBy (how = How.XPATH, using =createYourAmazonAccountLocator ) public WebElement createYourAmazonAccount;
+    @FindBy(how = How.LINK_TEXT, using = thingsToDoLocation)
+    public WebElement thingsToDo;
+    @FindBy(how = How.XPATH, using = signInLocator)
+    public WebElement signIn;
+    @FindBy(how = How.XPATH, using = emailAddressLocator)
+    public WebElement emailAddress;
+    @FindBy(how = How.XPATH, using = password_Locator)
+    public WebElement password;
+    @FindBy(how = How.XPATH, using = signInButton_Locator)
+    public WebElement signInButton;
+    @FindBy(xpath = ameurMassageLocator)
+    public WebElement ameurMassage;
+    @FindBy(xpath = signTextLocator)
+    public WebElement signText;
+    @FindBy(xpath = changeYourBookingLocator)
+    public WebElement changeYourBooking;
+    @FindBy(xpath = helpFeatureLocator)
+    public WebElement helpFeature;
+    @FindBy(xpath = faqsLocator)
+    public WebElement faqs;
+
+
+    public void clickOnThingsToDo() {
+        thingsToDo.click();
+    }
+
+    public String checkOnThingsUrl() {
+        String actualUrl =driver.getCurrentUrl();
+        return actualUrl;
+    }
+
+    public void clickOnSignIn() {
+        signIn.click();
+    }
+
+    public String checkSignInTitle() {
+        String actualTitle = driver.getTitle();
+        return actualTitle;
+    }
+
+    public void entreEmailAddress() {
+        emailAddress.sendKeys("cherif005@live.fr");
+    }
+
+    public void entrePassword() {
+        password.sendKeys("cherif83");
+    }
+
+    public void clickOnSignIn2() {
+        signInButton.click();
+    }
+
+    public void checkAmeurMassage(String expectedText) {
+        String actualText = ameurMassage.getText();
+        Assert.assertEquals(expectedText, actualText, "test fail");
+    }
+
+    public void clickOnHelpFeature() {
+        helpFeature.click();
+    }
+
+    public void clickOnChangeYourBooking() {
+        changeYourBooking.click();
+    }
+
+    public void clickOnFaqsFeature() {
+        faqs.click();
+    }
+
 
 
 
 
-    public void enterProductName( String productName){
-        searchBox.sendKeys(productName);
+    @FindBy(xpath = dealsLocator) public WebElement deals;
+    @FindBy(css = enterDestinationLocator)
+    public WebElement enterDestination;
+    @FindBy(css = checkInLocator)
+    public WebElement checkIn;
+    @FindBy(xpath = checkOutLocator)
+    public WebElement checkOut;
+    @FindBy(xpath = roomsLocator)
+    public WebElement rooms;
+    @FindBy(xpath = adultsLocator)
+    public WebElement adults;
+    @FindBy(xpath = childrenLocator)
+    public WebElement children;
+    @FindBy(xpath = showDealsButtonLocator)
+    public WebElement showDealsButton;
+    @FindBy(xpath = closeButtonLocator)
+    public WebElement closeButton;
+    @FindBy(xpath = checkOutDayLocator)
+    public WebElement checkOutDay;
+    @FindBy(xpath = clickAwayLocator)
+    public WebElement clickAway;
+
+    public void clickOnDealsFeature() {
+        deals.click();
     }
 
-    public void clickOnSearchButton(){
-        searchButton.click();
+    public String checkUrlDeals() {
+        String actualUrl = driver.getCurrentUrl();
+       return actualUrl;
     }
 
-    public void verifySearchResult(String expectedText){
-        String actualText=searchText.getText();
-        Assert.assertEquals("Product does not match",expectedText,actualText);
+    public void enterDestinationFeature(String dist) {
+        enterDestination.sendKeys(dist);
+        clickAway.click();
     }
 
-    public void verifySearchResultNotMatch(String expectedText){
-        String actualText=searchText.getText();
-        Assert.assertNotEquals("Product does not match",expectedText,actualText);
+    public void checkIn(String in) {
+        checkIn.sendKeys(in);
+        // closeButton.click();
     }
 
-    public void verifyPageTitle(String expectedText){
-        String actualText=driver.getTitle();
-        Assert.assertEquals("Page Title not match",expectedText,actualText);
+    public void checkOut(String out) {
+        checkOut.click();
+
+        for (int i = 0; i <= 7; i++) {
+            Actions ac = new Actions(driver);
+            ac.sendKeys(Keys.BACK_SPACE).build().perform();
+        }
+        checkOut.sendKeys(out);
+        closeButton.click();
+        clickAway.click();
+        System.out.println("*************checkout success");
+    }
+    public String checkHowDealsTitle(){
+        String actualTitle=driver.getTitle();
+        return actualTitle;
     }
 
-    public void clickOnHelloSignIn(){
-        helloSignIn.click();
-    }
-    public void enterEmailPhone( String emailPhone){
-        emailPhoneForSignIn.sendKeys(emailPhone);
+    public void rooms(String ro) {
+        selectOptionByVisibleText(rooms, ro);
     }
 
-    public void clickOnContinueForSignIn(){
-        continueForSignIn.click();
-    }
-    public void enterPasswordForSignIn( String password){
-        passwordForSignIn.sendKeys(password);
-    }
-    public void clickOnSignInSubmit(){
-        signInSubmit.click();
+    public void adults(String ad) {
+        selectOptionByVisibleText(adults, ad);
     }
 
-    public void verifyUserLoggedIn(String expectedText){
-        String actualText=helloUser.getText();
-        Assert.assertEquals("Product does not match",expectedText,actualText);
-    }
-    public void verifyErrorMessage(String expectedText){
-        String actualText=errorMessage.getText();
-        Assert.assertEquals("Product does not match",expectedText,actualText);
+    public void children(String ch) {
+        selectOptionByVisibleText(children, ch);
     }
 
-    public void enterCustomerName( String name){
-        customerName.sendKeys(name);
+    public void showDealsButton() {
+        showDealsButton.click();
     }
 
-    public void clickOnCreateYourAmazonAccount(){
-        createYourAmazonAccount.click();
+    @FindBy(xpath = usdLocator)
+    public WebElement usd;
+    @FindBy(xpath = usDollarLocator)
+    public WebElement usDollar;
+
+    public void clickOnUsd() {
+        usd.click();
+    }
+
+    public void clickOnUsDollar() {
+        usDollar.click();
+    }
+public String checkTitleOnUsDollar(){
+        String actualTitle = driver.getTitle();
+        return  actualTitle;
+}
+public void getUrl(){
+        driver.getCurrentUrl();
+}
+public void navigateBackk(){
+        driver.navigate().back();
+}
+    public String checkHelpTitle(){
+        String actualTitle=driver.getTitle();
+        return actualTitle;
     }
 
 }

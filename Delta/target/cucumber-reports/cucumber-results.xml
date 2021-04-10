@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="112.231">
+    <testcase classname="sky miles functionality check" name="check functionality of join Sky Miles For Free" time="22.964">
+        <system-out>
+            <![CDATA[Given I am on delta Home Page...............................................passed
+And I mouse hover on sky miles..............................................passed
+When I click on join Sky Miles For Free feature.............................passed
+Then I should see JOIN SKYMILES text........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="sky miles functionality check" name="check functionality of my Sky Miles" time="24.481">
+        <system-out>
+            <![CDATA[Given I am on delta Home Page...............................................passed
+And I mouse hover on sky miles..............................................passed
+When I click on my Sky Miles  feature.......................................passed
+Then I should see Log In To Delta text1.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="sky miles functionality check" name="check functionality of get To Know Sky Miles" time="22.243">
+        <system-out>
+            <![CDATA[Given I am on delta Home Page...............................................passed
+And I mouse hover on sky miles..............................................passed
+When I click on get To Know Sky Miles feature...............................passed
+Then I should see SkyMiles Program text2....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="sky miles functionality check" name="check functionality of how To Use Miles" time="21.394">
+        <system-out>
+            <![CDATA[Given I am on delta Home Page...............................................passed
+And I mouse hover on sky miles..............................................passed
+When I click on  how To Use Miles feature...................................passed
+Then I should see How to Earn Miles text3...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="sky miles functionality check" name="check functionality of howTo Earn Miles" time="19.599">
+        <system-out>
+            <![CDATA[Given I am on delta Home Page...............................................passed
+And I mouse hover on sky miles..............................................passed
+When I click how To Earn Miles feature......................................passed
+Then I should see JOIN SKY MILES text4......................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
