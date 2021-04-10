@@ -1,21 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="20.207">
-    <testcase classname="LogIn , Register and explore Products functionality check" name="check login functionality with invalid userId and password" time="19.043">
-        <failure message="The login information you entered does not match our records. Please try again. expected:&lt;[The login information you entered does not match our records. Please try again.]&gt; but was:&lt;[massage doest not match]&gt;" type="org.junit.ComparisonFailure">
+<testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="30.962">
+    <testcase classname="answers functionality check" name="check  answers  feature functionality" time="7.67">
+        <failure message="https://www.progressive.com/ expected:&lt;[https://www.progressive.com/]&gt; but was:&lt;[test fail]&gt;" type="org.junit.ComparisonFailure">
             <![CDATA[Given I am on progressive home page.........................................passed
-And I click on logIn button function........................................passed
-And I enter my userId in field Zip Code.....................................passed
-And i enter my password.....................................................passed
-And i check  save userid box................................................passed
-When i click on log in button2..............................................passed
-Then i should see "The login information you entered does not match our records. Please try again." massage.failed
+When I click on answers function............................................passed
+Then I should see should see Progressive Answers text1......................failed
 
 StackTrace:
-org.junit.ComparisonFailure: The login information you entered does not match our records. Please try again. expected:<[The login information you entered does not match our records. Please try again.]> but was:<[massage doest not match]>
+org.junit.ComparisonFailure: https://www.progressive.com/ expected:<[https://www.progressive.com/]> but was:<[test fail]>
 	at org.junit.Assert.assertEquals(Assert.java:117)
-	at homepage.HomePage.getErrorMessage1(HomePage.java:82)
-	at stepDefinitions.HomePageStepDefinition.i_should_see_massage(HomePageStepDefinition.java:85)
-	at ✽.i should see "The login information you entered does not match our records. Please try again." massage(file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage.feature:16)
+	at answerspage.AnswersPage.progressiveAnswersText(AnswersPage.java:41)
+	at stepDefinitions.AnswersPageStepDefinition.i_should_see_should_see_progressive_answers_text1(AnswersPageStepDefinition.java:42)
+	at ✽.I should see should see Progressive Answers text1(file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/AnswersPage.feature:7)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="answers functionality check" name="check  exploreProducts  feature functionality" time="8.423">
+        <failure message="element click intercepted: Element &lt;button role=&quot;tab&quot; id=&quot;TabOne&quot; data-panel=&quot;explore&quot; aria-selected=&quot;false&quot; aria-controls=&quot;ExploreProductsNavigation&quot; data-access-goback=&quot;.header-flyout .close&quot; tabindex=&quot;-1&quot;&gt;...&lt;/button&gt; is not clickable at point (193, 41). Other element would receive the click: &lt;div class=&quot;flyout-container&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=89.0.4389.114)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MacBook-Pro-3.local', ip: '192.168.0.2', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/dn/0v7_tw5n0zs...}, goog:chromeOptions: {debuggerAddress: localhost:57816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 2737ce67b0c10de86fc0897ff5ed814e" type="org.openqa.selenium.ElementClickInterceptedException">
+            <![CDATA[Given I am on progressive home page.........................................passed
+And I click on answers function.............................................passed
+When I click exploreProducts................................................failed
+Then I should see should see Way to Save text2..............................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button role="tab" id="TabOne" data-panel="explore" aria-selected="false" aria-controls="ExploreProductsNavigation" data-access-goback=".header-flyout .close" tabindex="-1">...</button> is not clickable at point (193, 41). Other element would receive the click: <div class="flyout-container">...</div>
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-3.local', ip: '192.168.0.2', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/dn/0v7_tw5n0zs...}, goog:chromeOptions: {debuggerAddress: localhost:57816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2737ce67b0c10de86fc0897ff5ed814e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at answerspage.AnswersPage.exploreProducts(AnswersPage.java:45)
+	at stepDefinitions.AnswersPageStepDefinition.i_click_explore_products(AnswersPageStepDefinition.java:48)
+	at ✽.I click exploreProducts(file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/AnswersPage.feature:12)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="answers functionality check" name="check  claims  feature functionality" time="6.727">
+        <failure message="Report or track a claim expected:&lt;[]&gt; but was:&lt;[test fail]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am on progressive home page.........................................passed
+And I click on answers function.............................................passed
+When I click on claims function.............................................passed
+Then I should see should see report Or Track A Claim text3..................failed
+
+StackTrace:
+org.junit.ComparisonFailure: Report or track a claim expected:<[]> but was:<[test fail]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at answerspage.AnswersPage.reportOrTrackAClaimText(AnswersPage.java:63)
+	at stepDefinitions.AnswersPageStepDefinition.i_should_see_should_see_report_or_track_a_claim_text3(AnswersPageStepDefinition.java:65)
+	at ✽.I should see should see report Or Track A Claim text3(file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/AnswersPage.feature:19)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="answers functionality check" name="check  aboutUs  feature functionality" time="7.044">
+        <failure message="About Progressive expected:&lt;[]&gt; but was:&lt;[test fail]&gt;" type="org.junit.ComparisonFailure">
+            <![CDATA[Given I am on progressive home page.........................................passed
+And I click on answers function.............................................passed
+When I click on aboutUs function............................................passed
+Then I should see should see about Progressive  text4.......................failed
+
+StackTrace:
+org.junit.ComparisonFailure: About Progressive expected:<[]> but was:<[test fail]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at answerspage.AnswersPage.aboutProgressiveText(AnswersPage.java:73)
+	at stepDefinitions.AnswersPageStepDefinition.i_should_see_should_see_about_progressive_text4(AnswersPageStepDefinition.java:75)
+	at ✽.I should see should see about Progressive  text4(file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/AnswersPage.feature:25)
 ]]>
         </failure>
     </testcase>

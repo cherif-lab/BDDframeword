@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         // For single feature file
-        // features = {"src/test/java/features/AboutUsPage.feature"},
+          // features = {"src/test/java/features/AnswersPage.feature"},
         features = {"src/test/java/features/HomePage.feature"},
         //features = {"src/test/java/features"},
         // the path of the step definition files
@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
         // it will check if any step is not defined in step definition file
         strict = true,
         // display the console output in a proper readable format
-        monochrome = false,
+        monochrome = true,
         // to check the mapping is proper between feature file and step definition file
         dryRun = false,
         publish = true

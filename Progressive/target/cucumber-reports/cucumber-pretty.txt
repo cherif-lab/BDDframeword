@@ -1,24 +1,106 @@
 
-Scenario: check login functionality with invalid userId and password                                          [90m# src/test/java/features/HomePage.feature:10[0m
-  [32mGiven [0m[32mI am on progressive home page[0m                                                                         [90m# stepDefinitions.HomePageStepDefinition.i_am_on_progressive_home_page()[0m
-  [32mAnd [0m[32mI click on logIn button function[0m                                                                        [90m# stepDefinitions.HomePageStepDefinition.i_click_on_log_in_button_function()[0m
-  [32mAnd [0m[32mI enter my userId in field Zip Code[0m                                                                     [90m# stepDefinitions.HomePageStepDefinition.i_enter_my_user_id_in_field_zip_code()[0m
-  [32mAnd [0m[32mi enter my password[0m                                                                                     [90m# stepDefinitions.HomePageStepDefinition.i_enter_my_password()[0m
-  [32mAnd [0m[32mi check  save userid box[0m                                                                                [90m# stepDefinitions.HomePageStepDefinition.i_check_save_userid_box()[0m
-  [32mWhen [0m[32mi click on log in button2[0m                                                                              [90m# stepDefinitions.HomePageStepDefinition.i_click_on_log_in_button2()[0m
-  [31mThen [0m[31mi should see [0m[31m[1m"The login information you entered does not match our records. Please try again."[0m[31m massage[0m [90m# stepDefinitions.HomePageStepDefinition.i_should_see_massage(java.lang.String)[0m
-      [31morg.junit.ComparisonFailure: The login information you entered does not match our records. Please try again. expected:<[The login information you entered does not match our records. Please try again.]> but was:<[massage doest not match]>
+Scenario: check  answers  feature functionality          # src/test/java/features/AnswersPage.feature:3
+  Given I am on progressive home page                    # stepDefinitions.HomePageStepDefinition.i_am_on_progressive_home_page()
+  When I click on answers function                       # stepDefinitions.AnswersPageStepDefinition.i_click_on_answers_function()
+  Then I should see should see Progressive Answers text1 # stepDefinitions.AnswersPageStepDefinition.i_should_see_should_see_progressive_answers_text1()
+      org.junit.ComparisonFailure: https://www.progressive.com/ expected:<[https://www.progressive.com/]> but was:<[test fail]>
 	at org.junit.Assert.assertEquals(Assert.java:117)
-	at homepage.HomePage.getErrorMessage1(HomePage.java:82)
-	at stepDefinitions.HomePageStepDefinition.i_should_see_massage(HomePageStepDefinition.java:85)
-	at ✽.i should see "The login information you entered does not match our records. Please try again." massage(file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage.feature:16)
-[0m
-
-    Embedding demo1 [image/png 680862 bytes]
+	at answerspage.AnswersPage.progressiveAnswersText(AnswersPage.java:41)
+	at stepDefinitions.AnswersPageStepDefinition.i_should_see_should_see_progressive_answers_text1(AnswersPageStepDefinition.java:42)
+	at ✽.I should see should see Progressive Answers text1(file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/AnswersPage.feature:7)
 
 
-    Embedding demo1 [image/png 680862 bytes]
+    Embedding demo1 [image/png 23617 bytes]
 
 
-    Embedding demo1 [image/png 680862 bytes]
+    Embedding demo1 [image/png 97029 bytes]
+
+
+    Embedding demo1 [image/png 90090 bytes]
+
+
+Scenario: check  exploreProducts  feature functionality # src/test/java/features/AnswersPage.feature:9
+  Given I am on progressive home page                   # stepDefinitions.HomePageStepDefinition.i_am_on_progressive_home_page()
+  And I click on answers function                       # stepDefinitions.AnswersPageStepDefinition.i_click_on_answers_function()
+  When I click exploreProducts                          # stepDefinitions.AnswersPageStepDefinition.i_click_explore_products()
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button role="tab" id="TabOne" data-panel="explore" aria-selected="false" aria-controls="ExploreProductsNavigation" data-access-goback=".header-flyout .close" tabindex="-1">...</button> is not clickable at point (193, 41). Other element would receive the click: <div class="flyout-container">...</div>
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-3.local', ip: '192.168.0.2', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/dn/0v7_tw5n0zs...}, goog:chromeOptions: {debuggerAddress: localhost:57816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2737ce67b0c10de86fc0897ff5ed814e
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.click(Unknown Source)
+	at answerspage.AnswersPage.exploreProducts(AnswersPage.java:45)
+	at stepDefinitions.AnswersPageStepDefinition.i_click_explore_products(AnswersPageStepDefinition.java:48)
+	at ✽.I click exploreProducts(file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/AnswersPage.feature:12)
+
+
+    Embedding demo1 [image/png 90090 bytes]
+
+
+    Embedding demo1 [image/png 90090 bytes]
+
+
+    Embedding demo1 [image/png 90090 bytes]
+
+  Then I should see should see Way to Save text2        # stepDefinitions.AnswersPageStepDefinition.i_should_see_should_see_way_to_save_text2()
+
+Scenario: check  claims  feature functionality               # src/test/java/features/AnswersPage.feature:15
+  Given I am on progressive home page                        # stepDefinitions.HomePageStepDefinition.i_am_on_progressive_home_page()
+  And I click on answers function                            # stepDefinitions.AnswersPageStepDefinition.i_click_on_answers_function()
+  When I click on claims function                            # stepDefinitions.AnswersPageStepDefinition.i_click_on_claims_function()
+  Then I should see should see report Or Track A Claim text3 # stepDefinitions.AnswersPageStepDefinition.i_should_see_should_see_report_or_track_a_claim_text3()
+      org.junit.ComparisonFailure: Report or track a claim expected:<[]> but was:<[test fail]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at answerspage.AnswersPage.reportOrTrackAClaimText(AnswersPage.java:63)
+	at stepDefinitions.AnswersPageStepDefinition.i_should_see_should_see_report_or_track_a_claim_text3(AnswersPageStepDefinition.java:65)
+	at ✽.I should see should see report Or Track A Claim text3(file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/AnswersPage.feature:19)
+
+
+    Embedding demo1 [image/png 34069 bytes]
+
+
+    Embedding demo1 [image/png 63428 bytes]
+
+
+    Embedding demo1 [image/png 63646 bytes]
+
+
+Scenario: check  aboutUs  feature functionality         # src/test/java/features/AnswersPage.feature:21
+  Given I am on progressive home page                   # stepDefinitions.HomePageStepDefinition.i_am_on_progressive_home_page()
+  And I click on answers function                       # stepDefinitions.AnswersPageStepDefinition.i_click_on_answers_function()
+  When I click on aboutUs function                      # stepDefinitions.AnswersPageStepDefinition.i_click_on_about_us_function()
+  Then I should see should see about Progressive  text4 # stepDefinitions.AnswersPageStepDefinition.i_should_see_should_see_about_progressive_text4()
+      org.junit.ComparisonFailure: About Progressive expected:<[]> but was:<[test fail]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at answerspage.AnswersPage.aboutProgressiveText(AnswersPage.java:73)
+	at stepDefinitions.AnswersPageStepDefinition.i_should_see_should_see_about_progressive_text4(AnswersPageStepDefinition.java:75)
+	at ✽.I should see should see about Progressive  text4(file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/AnswersPage.feature:25)
+
+
+    Embedding demo1 [image/png 28595 bytes]
+
+
+    Embedding demo1 [image/png 103823 bytes]
+
+
+    Embedding demo1 [image/png 96286 bytes]
 

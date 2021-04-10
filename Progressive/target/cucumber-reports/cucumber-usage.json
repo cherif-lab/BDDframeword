@@ -5,103 +5,91 @@
       {
         "name": "I am on progressive home page",
         "aggregatedDurations": {
-          "median": 6.570448,
-          "average": 6.570448
+          "median": 5.2237145,
+          "average": 5.256585
         },
         "durations": [
           {
-            "duration": 6.570448,
-            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage.feature:4"
+            "duration": 5.723013,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/AnswersPage.feature:5"
+          },
+          {
+            "duration": 5.575373,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/AnswersPage.feature:10"
+          },
+          {
+            "duration": 4.872056,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/AnswersPage.feature:16"
+          },
+          {
+            "duration": 4.855898,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/AnswersPage.feature:22"
           }
         ]
       }
     ]
   },
   {
-    "source": "I click on logIn button function",
+    "source": "I click on answers function",
     "steps": [
       {
-        "name": "I click on logIn button function",
+        "name": "I click on answers function",
         "aggregatedDurations": {
-          "median": 0.351412,
-          "average": 0.351412
+          "median": 0.2089595,
+          "average": 0.2021035
         },
         "durations": [
           {
-            "duration": 0.351412,
-            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage.feature:11"
+            "duration": 0.155598,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/AnswersPage.feature:6"
+          },
+          {
+            "duration": 0.230168,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/AnswersPage.feature:11"
+          },
+          {
+            "duration": 0.187751,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/AnswersPage.feature:17"
+          },
+          {
+            "duration": 0.234897,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/AnswersPage.feature:23"
           }
         ]
       }
     ]
   },
   {
-    "source": "I enter my userId in field Zip Code",
+    "source": "I click on claims function",
     "steps": [
       {
-        "name": "I enter my userId in field Zip Code",
+        "name": "I click on claims function",
         "aggregatedDurations": {
-          "median": 7.917053,
-          "average": 7.917053
+          "median": 0.342615,
+          "average": 0.342615
         },
         "durations": [
           {
-            "duration": 7.917053,
-            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage.feature:12"
+            "duration": 0.342615,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/AnswersPage.feature:18"
           }
         ]
       }
     ]
   },
   {
-    "source": "i enter my password",
+    "source": "I click on aboutUs function",
     "steps": [
       {
-        "name": "i enter my password",
+        "name": "I click on aboutUs function",
         "aggregatedDurations": {
-          "median": 0.277593,
-          "average": 0.277593
+          "median": 0.393708,
+          "average": 0.393708
         },
         "durations": [
           {
-            "duration": 0.277593,
-            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage.feature:13"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "i check  save userid box",
-    "steps": [
-      {
-        "name": "i check  save userid box",
-        "aggregatedDurations": {
-          "median": 0.148951,
-          "average": 0.148951
-        },
-        "durations": [
-          {
-            "duration": 0.148951,
-            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage.feature:14"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "i click on log in button2",
-    "steps": [
-      {
-        "name": "i click on log in button2",
-        "aggregatedDurations": {
-          "median": 0.228508,
-          "average": 0.228508
-        },
-        "durations": [
-          {
-            "duration": 0.228508,
-            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage.feature:15"
+            "duration": 0.393708,
+            "location": "file:///Users/ameurcherif/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/AnswersPage.feature:24"
           }
         ]
       }
